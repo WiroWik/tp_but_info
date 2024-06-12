@@ -5,21 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Chrome",
+            "type": "dart",
+            "request": "launch",
+            "args": ["-d", "chrome"]
+        },
+        {
             "name": "tp_but_info",
             "request": "launch",
             "type": "dart"
-        },
-        {
-            "name": "Android",
-            "request": "launch",
-            "type": "dart",
-            "args": ["-d", "emulator-5554"]
-        },
-        {
-            "name": "Chrome",
-            "request": "launch",
-            "type": "dart",
-            "args": ["-d", "chrome"]
         },
         {
             "name": "tp_but_info (profile mode)",
